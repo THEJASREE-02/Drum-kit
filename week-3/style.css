@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-color: #f59afd;
+ background-image: url("drums.png");
+  z-index: -1;
+  background-blend-mode:normal;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #f13750;
+  font-family: cursive;
+  text-shadow: 5px 0 #ff5fff;
+
+}
+
+.w {
+  background-image: url("crash_cymbal.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.a {
+  background-image: url("floor_tom.png");
+  background-size: cover;
+}
+
+.s {
+  background-image: url("bass_drum.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.d {
+  background-image: url("high_tom.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.j {
+  background-image: url("mid_tom.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.k {
+  background-image: url("ride_cymbal.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.l {
+  background-image: url("snare_drum.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.set {
+  margin: 10% auto;
+
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #21255f;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #f33ee4;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #7b22e0;
+  text-shadow: 3px 0 #df6ebd;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+
+  margin: 10px;
+  background-color: white;
+
+}
